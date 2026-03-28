@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e8f4f8 0%, #d4e9f1 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: #4a7c9e;
+            margin-bottom: 1rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #6b9cb5;
+            margin-bottom: 3rem;
+        }
+
+        marquee {
+            font-size: 2rem;
+            color: #5eb3d6;
+            font-weight: 500;
+            padding: 1.5rem;
+            background: rgba(72, 157, 179, 0.1);
+            border-radius: 10px;
+            border: 2px solid #5eb3d6;
+            letter-spacing: 6px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Future Home</h1>
+        <p class="subtitle">Welcome to Tomorrow</p>
+        <marquee behavior="scroll" direction="left" scrollamount="6">Home</marquee>
+    </div>
+</body>
+</html>
